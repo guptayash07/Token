@@ -15,8 +15,8 @@ pragma solidity ^0.8.7;
        to the amount that is supposed to be burned.
 */
 contract MyToken{
-    string public Token_Name = "FOOTBALL";
-    string public Token_Abbrv = "FTBL";
+    string public Token_Name = "onlineshoping";
+    string public Token_Abbrv = "OS";
     uint public Total_Supply = 0;
 
     mapping ( address => uint) public  balances;
